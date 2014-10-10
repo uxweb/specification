@@ -1,0 +1,19 @@
+{
+    "name": "uxweb/specification",
+    "description": "Implement Specification pattern in PHP.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uziel Bueno",
+            "email": "ux.webs@gmail.com"
+        }
+    ],
+    "require": {
+        "phpspec/phpspec": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Uxweb\\Specification": "src"
+        }
+    }
+}
